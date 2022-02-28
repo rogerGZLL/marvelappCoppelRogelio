@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Marvel App Roger</string>
+    <string name="sin_resultados">Sin resultados disponibles</string>
+    <string name="final_lista">No hay más personajes para mostrar</string>
+    <string name="id">ID del personaje</string>
+    <string name="nombre">Nombre del personaje</string>
+    <string name="descripcion">Descripción</string>
+    <string name="sin_descripcion">Sin descripción</string>
+    <string name="datos_personales">Datos del personaje</string>
+    <string name="comics">Lista de comics</string>
+    <string name="series">Lista de series</string>
+    <string name="stories">Historias del personaje</string>
+    <string name="events">Eventos del personaje</string>
+    <string name="error_red">Error de red</string>
+    <string name="intentar_de_nuevo">Intentar de nuevo</string>
+    <string name="error_red_descripción">No es posible cargar más resultados debido a un error de red</string>
+
+</resources>
