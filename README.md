@@ -5,11 +5,11 @@ Examen práctico de evaluación Rogelio González López
 - Implementación de RecyclerView con paginación de 10 elementos hasta llegar al total de resultados
 - Uso de Retrofit para el consumo de la Api
 - Uso de data class para el modelo de datos de la Api
-- Validación de error de red al consumir retrofit
+- Validación de error de red al consumir Retrofit
 - Manejo de UX con la utilización ProgressBar y otros componentes para indicar que la App está trabajando
 - Implementación de coroutines en el consumo de la Api
 - Implementación de Picasso para la optimizción del consumo de las imágenes
-- Uso de componentes de diferentes tipos de Layout
+- Uso de diferentes tipos de Layout así como componentes, estilos y temas de Material Design y personalizados
 - Manejo del patron mvvm
 - Uso del lenguaje Kotlin
 - Compile Sdk: 31
