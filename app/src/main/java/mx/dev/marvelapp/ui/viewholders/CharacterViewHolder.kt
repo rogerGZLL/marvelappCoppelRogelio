@@ -1,4 +1,4 @@
-package mx.dev.marvelapp.viewholders
+package mx.dev.marvelapp.ui.viewholders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

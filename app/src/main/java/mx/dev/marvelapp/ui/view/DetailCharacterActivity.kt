@@ -6,7 +6,7 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.squareup.picasso.Picasso
 import mx.dev.marvelapp.R
-import mx.dev.marvelapp.adapters.ItemAdapter
+import mx.dev.marvelapp.ui.adapters.ItemAdapter
 import mx.dev.marvelapp.data.model.Character
 import mx.dev.marvelapp.databinding.ActivityDetailCharacterBinding
 

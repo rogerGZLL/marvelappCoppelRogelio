@@ -1,11 +1,11 @@
-package mx.dev.marvelapp.adapters
+package mx.dev.marvelapp.ui.adapters
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import mx.dev.marvelapp.data.model.Character
-import mx.dev.marvelapp.viewholders.CharacterViewHolder
+import mx.dev.marvelapp.ui.viewholders.CharacterViewHolder
 import mx.dev.marvelapp.R
 import mx.dev.marvelapp.ui.view.DetailCharacterActivity
 

@@ -5,11 +5,11 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import mx.dev.marvelapp.constants.ConstantsApi
+import mx.dev.marvelapp.core.ConstantsApi
 import mx.dev.marvelapp.data.model.Character
 import mx.dev.marvelapp.data.model.CharacterResponse
-import mx.dev.marvelapp.data.network.ApiService
-import mx.dev.marvelapp.helpers.RetrofitHelper
+import mx.dev.marvelapp.data.network.ApiClient
+import mx.dev.marvelapp.core.RetrofitHelper
 
 class CharacterViewModel : ViewModel() {
     private val retrofit = RetrofitHelper.getRetrofit()
@@ -44,7 +44,7 @@ class CharacterViewModel : ViewModel() {
         }
         CoroutineScope(Dispatchers.IO).launch {
             var urlApi = "${ConstantsApi.characters}?ts=${ConstantsApi.ts}&apikey=${ConstantsApi.apiKey}&hash=${ConstantsApi.hash}&limit=${limit}&offset=${offset}"
-            val call = retrofit.create(ApiService::class.java).getCharacters(urlApi)
+            val call = retrofit.create(ApiClient::class.java).getCharacters(urlApi)
                 if (call.isSuccessful){
                     val characterResponse: CharacterResponse? = call.body()
                     val character = characterResponse?.data?.results ?: emptyList()

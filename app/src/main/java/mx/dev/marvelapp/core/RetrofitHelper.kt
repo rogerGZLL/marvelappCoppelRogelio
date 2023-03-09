@@ -1,6 +1,5 @@
-package mx.dev.marvelapp.helpers
+package mx.dev.marvelapp.core
 
-import mx.dev.marvelapp.constants.ConstantsApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

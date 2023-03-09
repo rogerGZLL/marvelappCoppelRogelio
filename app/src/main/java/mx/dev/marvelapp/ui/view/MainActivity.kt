@@ -10,9 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import mx.dev.marvelapp.R
-import mx.dev.marvelapp.adapters.CharacterAdapter
+import mx.dev.marvelapp.ui.adapters.CharacterAdapter
 import mx.dev.marvelapp.databinding.ActivityMainBinding
-import mx.dev.marvelapp.helpers.CheckNetwork
+import mx.dev.marvelapp.core.CheckNetwork
 import mx.dev.marvelapp.ui.viewmodel.CharacterViewModel
 
 class MainActivity : AppCompatActivity() {
@@ -118,7 +118,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import mx.dev.marvelapp.R
-import mx.dev.marvelapp.adapters.CharacterAdapter
+import mx.dev.marvelapp.ui.adapters.CharacterAdapter
 import mx.dev.marvelapp.data.model.CharacterResponse
 import mx.dev.marvelapp.data.model.Character
 import mx.dev.marvelapp.data.network.ApiService

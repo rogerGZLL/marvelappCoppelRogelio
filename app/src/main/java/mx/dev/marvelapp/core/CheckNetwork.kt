@@ -1,4 +1,4 @@
-package mx.dev.marvelapp.helpers
+package mx.dev.marvelapp.core
 
 import android.content.Context
 import android.net.ConnectivityManager

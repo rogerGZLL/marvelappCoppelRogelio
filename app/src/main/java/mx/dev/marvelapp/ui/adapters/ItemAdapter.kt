@@ -1,15 +1,11 @@
-package mx.dev.marvelapp.adapters
+package mx.dev.marvelapp.ui.adapters
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import mx.dev.marvelapp.data.model.Character
-import mx.dev.marvelapp.viewholders.CharacterViewHolder
 import mx.dev.marvelapp.R
 import mx.dev.marvelapp.data.model.Item
-import mx.dev.marvelapp.ui.view.DetailCharacterActivity
-import mx.dev.marvelapp.viewholders.ItemViewHolder
+import mx.dev.marvelapp.ui.viewholders.ItemViewHolder
 
 class ItemAdapter(private val characters : List<Item>) : RecyclerView.Adapter<ItemViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {

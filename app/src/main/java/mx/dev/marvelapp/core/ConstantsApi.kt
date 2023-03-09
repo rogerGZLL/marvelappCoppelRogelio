@@ -1,4 +1,4 @@
-package mx.dev.marvelapp.constants
+package mx.dev.marvelapp.core
 
 class ConstantsApi {
 
